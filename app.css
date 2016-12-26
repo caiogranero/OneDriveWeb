@@ -1,0 +1,195 @@
+body{
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+	letter-spacing: 0.5px;
+	font-weight: 100;
+}
+
+header{
+	margin-top: 15px;
+	margin-left: 8px;
+	margin-right: 8px;
+	background-color: white;
+	padding-bottom: 75px;
+}
+
+header #logo{
+	height: 60px;
+}
+
+.nav-right a{
+	float: right;
+	margin-right: 50px;
+	color: #637282;
+	margin-top: 20px;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	height: 5%;
+}
+
+.nav-right a:hover{
+	color: #1b2733;
+	text-decoration: none;
+}
+
+.nav-right .login {
+	border: 1px solid #0078d7;
+	border-radius: 5px;
+	margin-left: 0px;
+	height: 30px;
+	width: 100px;
+	margin-top: 15px;
+	color: #0078d7;
+}
+
+.nav-right .login:hover {
+	border: 1px solid #0078d7;
+	background-color: #0078d7;
+	color: white;
+}
+
+.hero {
+	background-image: url(http://d1xenuxjgcz4dx.cloudfront.net/wp-content/uploads/2015/06/Want-to-Be-Happy-at-Work-Care-Less-About-It_SOURCE_stocksy.jpg);
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+
+.hero-content{
+	padding: 120 700 200 150;
+}
+
+.hero-content h1, .hero-content h2{
+	font-weight: 200;
+}
+
+.hero-content h1{
+	font-size: 40px;
+}
+
+.hero-content h2{
+	line-height: 30px;
+	letter-spacing: 2px;
+	font-size: 22px;
+}
+
+.hero-content #purchase-now{
+	border: 1px solid #0078d7;
+	border-radius: 5px;
+	padding: 5 10 5 10;
+	margin-top: 15px;
+	color: #0078d7;
+	font-size: 16px;
+}
+
+.hero-content #purchase-now:hover{
+	text-decoration: none;
+	background-color: #0078d7;
+	color: white;
+}
+
+.plans {
+	padding: 50 100 100 100;	
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+	color: #47525d;
+}
+
+.plans h3{
+	font-weight: 200;
+	letter-spacing: 0.5px;
+}
+
+.plans .plan-box{
+	height: 400px;
+	border: 1px solid #d0d4d9;
+	width: 27%;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.plan-box .plan-name{
+	background-color: #f5f3f4;
+	height: 70px;	
+	font-size: 18px;
+	padding: 15 15 15 15
+}
+
+.plan-box .plan-content{
+	padding: 20 20 20 20;
+	font-weight: 100;
+}
+
+.plan-content .plan-price{
+	font-size: 50px;
+}
+
+.plan-content .price-description{
+	font-size: 15px;
+}
+
+.plan-content .plan-description{
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+.plan-content #get-started{
+	border: 1px solid #0078d7;
+	border-radius: 5px;
+	padding: 5 10 5 10;
+	color: #0078d7;
+	font-size: 16px;
+	font-weight: 500;
+	display: block;
+	width: 100%;
+}
+
+.plan-content #get-started:hover{
+	background-color: #0078d7;
+	color: white;
+	
+}
+
+.plan-content #get-started:hover{
+	text-decoration: none;
+}
+
+.plans .plan-items{
+	width: 30%;
+    margin-left: 25px;
+    margin-top: 30px;
+    border-left:1px solid #d0d4d9
+}
+
+.plan-items i{
+	margin-right: 10px;
+	color: #0078d7;
+}
+
+.plan-items ul{
+	list-style-type: none;
+}
+
+.plan-items li{
+	margin-top: 7px;
+}
+
+.plans .plans-intro{
+	padding: 0 250 0 250;
+    margin-top: 30px;   
+}
+
+.plans-intro .intro-header{
+	margin-top:15px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+.plans-intro .intro-text{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.plans-intro i{
+	font-size: 60px;
+}
+
+.plans-intro .intro-icons{
+	margin-bottom: 15px;
+}
