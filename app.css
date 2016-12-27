@@ -34,7 +34,6 @@ header #logo{
 .nav-right .login {
 	border: 1px solid #0078d7;
 	border-radius: 5px;
-	margin-left: 0px;
 	height: 30px;
 	width: 100px;
 	margin-top: 15px;
@@ -56,18 +55,16 @@ header #logo{
 	padding: 120 700 200 150;
 }
 
-.hero-content h1, .hero-content h2{
-	font-weight: 200;
-}
-
 .hero-content h1{
 	font-size: 40px;
+	font-weight: 200;
 }
 
 .hero-content h2{
 	line-height: 30px;
 	letter-spacing: 2px;
 	font-size: 22px;
+	font-weight: 200;
 }
 
 .hero-content #purchase-now{
@@ -94,6 +91,7 @@ header #logo{
 .plans h3{
 	font-weight: 200;
 	letter-spacing: 0.5px;
+	margin-left: 45px;
 }
 
 .plans .plan-box{
@@ -192,4 +190,47 @@ header #logo{
 
 .plans-intro .intro-icons{
 	margin-bottom: 15px;
+}
+
+footer .header{
+	height: 50px;
+	background-color: rgb(244, 244, 244);
+
+	
+}
+
+.header #name {
+	margin-top: 15px;
+	margin-left: 45px;
+}
+
+.header #social {
+	margin-top: 15px;
+	text-align: end;
+	padding-right: 70px;
+}
+
+.header #social i {
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+footer .main{
+	margin-left: 300px;
+    margin-right: 300px;
+}
+
+footer .main ul {
+	list-style-type: none;
+}
+
+footer .main li {
+	margin-top: 5px;
+	font-weight: bold;
+	color: #3d464d;
+}
+
+footer .main a {
+	color: #3d464d;
+	font-weight: 100;
 }
